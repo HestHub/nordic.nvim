@@ -32,7 +32,7 @@ function C.build_palette()
     C.bg = (options.transparent.bg and C.none) or ((options.swap_backgrounds and C.black1) or C.gray0)
     C.bg_dark = (options.transparent.bg and C.none) or C.black0
     C.bg_sidebar = (options.transparent.bg and C.none) or C.bg
-    C.bg_statusline = C.black0
+    C.bg_statusline = C.black1
     C.bg_fold = C.gray2
 
     -- Cursorline Background
