@@ -94,7 +94,7 @@ function C.build_palette()
     C.info = C.blue2
 
     -- Misc
-    C.comment = C.gray4
+    C.comment = C.gray5
 
     -- Modify the palette after generating colors.
     options.after_palette(C)
